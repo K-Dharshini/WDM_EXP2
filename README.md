@@ -1,12 +1,17 @@
 ### EX2 Generating Association Rules for Employee dataset using Apriori Algorithm
+
 ### DATE: 
-### AIM: To generate associate rules for the employee dataset using Apriori Algorithm.
+
+### AIM: 
+To generate associate rules for the employee dataset using Apriori Algorithm.
+
 ### Description:
 In data mining, association rule learning is a popular and well researched method for discovering interesting
 relations between variables in large databases. It can be described as analyzing and presenting strong rules discovered
 in databases using different measures of interestingness. In market basket analysis association rules are used and they
 are also employed in many application areas including Web usage mining, intrusion detection and bioinformatics.
 Creation of Buying Table:
+
 ### Procedure:
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Type the following training data set with the help of Notepad for Buying Table.
@@ -41,8 +46,12 @@ G40,high,yes,excellent,yes
 6) In that dialog box there are four modes, click on explorer.
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
 8) Click on edit button which shows buying table on weka.
+   
 ### OUTPUT:
 
+# Training Data Set -> Buying Table
+
+![image](https://github.com/user-attachments/assets/ae46b562-bb54-4063-a472-63255f1edd5b)
 
 ### Procedure for Association Rules:
 1) Open Start -> Programs -> Accessories -> Notepad
@@ -54,4 +63,11 @@ G40,high,yes,excellent,yes
 
 ### OUTPUT:
 
+# Buying Table
+
+![image](https://github.com/user-attachments/assets/ba168489-40bb-41b2-b913-03a448b319ee)
+
+![image](https://github.com/user-attachments/assets/5fe4db10-fea5-4a47-9e90-1ee7c32f8f61)
+
 ### RESULT: 
+The association rules were successfully generated for the employee dataset using the Apriori Algorithm in WEKA. These rules help in identifying patterns such as which age groups and income levels are more likely to buy computers.
